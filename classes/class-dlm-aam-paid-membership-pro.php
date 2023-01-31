@@ -360,13 +360,13 @@ class DLM_AMM_PAID_MEMBERSHIP_PRO {
 
 		$core_exists = $this->core_exists();
 		$notice_messages = array(
-			'missing_dlm' 	=> sprintf( __( 'Download Monitor & Restrict content integration requires %s in order to work.', 'dlm-paid-membership-pro-integration' ), $dlm_link ),
-			'missing_aam'	=> sprintf( __( 'Download Monitor & Restrict content integration requires %s addon in order to work.', 'dlm-paid-membership-pro-integration' ), $aam_link ),
-			'missing_pmp' 	=> sprintf( __( 'Download Monitor & Restrict content integration requires %s in order to work.', 'dlm-paid-membership-pro-integration' ), $pmp_link ),
-			'missing_dlm_amm' 	=> sprintf( __( 'Download Monitor & Restrict content integration requires %s & %s addon in order to work.', 'dlm-paid-membership-pro-integration' ), $dlm_link, $aam_link ),
-			'missing_dlm_pmp' 	=> sprintf( __( 'Download Monitor & Restrict content integration requires %s & %s plugin in order to work.', 'dlm-paid-membership-pro-integration' ), $dlm_link, $pmp_link ),
-			'missing_amm_pmp' 	=> sprintf( __( 'Download Monitor & Restrict content integration requires %s addon & %s plugin in order to work.', 'dlm-paid-membership-pro-integration' ), $aam_link, $pmp_link ),
-			'missing_all' 	=> sprintf( __( 'Download Monitor & Restrict content integration requires %s & %s addon & %s plugin in order to work.', 'dlm-paid-membership-pro-integration' ), $dlm_link, $aam_link, $pmp_link ),
+			'missing_dlm' 	=> sprintf( __( 'Download Monitor & Paid Membership PRO integration requires %s in order to work.', 'dlm-paid-membership-pro-integration' ), $dlm_link ),
+			'missing_aam'	=> sprintf( __( 'Download Monitor & Paid Membership PRO integration requires %s addon in order to work.', 'dlm-paid-membership-pro-integration' ), $aam_link ),
+			'missing_pmp' 	=> sprintf( __( 'Download Monitor & Paid Membership PRO integration requires %s in order to work.', 'dlm-paid-membership-pro-integration' ), $pmp_link ),
+			'missing_dlm_amm' 	=> sprintf( __( 'Download Monitor & Paid Membership PRO integration requires %s & %s addon in order to work.', 'dlm-paid-membership-pro-integration' ), $dlm_link, $aam_link ),
+			'missing_dlm_pmp' 	=> sprintf( __( 'Download Monitor & Paid Membership PRO integration requires %s & %s plugin in order to work.', 'dlm-paid-membership-pro-integration' ), $dlm_link, $pmp_link ),
+			'missing_amm_pmp' 	=> sprintf( __( 'Download Monitor & Paid Membership PRO integration requires %s addon & %s plugin in order to work.', 'dlm-paid-membership-pro-integration' ), $aam_link, $pmp_link ),
+			'missing_all' 	=> sprintf( __( 'Download Monitor & Paid Membership PRO integration requires %s & %s addon & %s plugin in order to work.', 'dlm-paid-membership-pro-integration' ), $dlm_link, $aam_link, $pmp_link ),
 		);
 		$class = 'notice notice-error';
 		printf( '<div class="%1$s"><p>%2$s</p></div>', esc_attr( $class ), wp_kses_post( $notice_messages[ $core_exists ] ) ); 
