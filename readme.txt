@@ -2,7 +2,7 @@
 Contributors: wpchill
 Tags: best download monitor plugin, manage downloads access, manage user access, download counts, restrict downloads, DLM Paid Membership Pro integration,download access manager, manage user downloads, manage members downloads, manage courses downloads, restrict content groups downloads, 
 Requires at least: 5.2
-Tested up to: 6.0
+Tested up to: 6.1
 Requires PHP: 5.6
 Stable tag: 1.0.0
 License: GNU General Public License v3.0 or later
