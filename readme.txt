@@ -39,7 +39,7 @@ The simplest way to install is to click on \'Plugins\' then \'Add\' and type \'D
 
 * Give us 5 stars on [Wordpress](https://wordpress.org/support/plugin/dlm-restrict-content-integration/reviews/)
 * Just recommend our plugin to your friends! or
-* Follow us on [Twitter](https://twitter.com/wpchillhq "Twitter") 
+* Follow us on [[X](https://x.com/wpcontentforge "X")
 
 
 == Changelog ==
