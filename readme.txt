@@ -34,6 +34,9 @@ The simplest way to install is to click on \'Plugins\' then \'Add\' and type \'D
 5. Look for \"Download Monitor & Restrict Content integration\" and click Activate.
 
 == Frequently Asked Questions ==
+= Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the Download Monitor & Paid Membership Pro integration plugin through the [Patchstack Vulnerability Disclosure  Program](https://patchstack.com/database/vdp/e86feed1-6d1e-488f-b21b-c58cd12e9e7f). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin."
 
 = How can I say thanks? =
 
